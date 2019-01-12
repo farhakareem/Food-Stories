@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            android:adjustViewBounds="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/beef" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="Beef Deep Fry @ Binnamas"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"
+            app:fontFamily="@font/alike_angular" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="17sp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/aboutbeef" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:text="Price - 130/- "/>
+        <TextView
+            android:id="@+id/locbinnamas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textColorLink="@android:color/darker_gray"
+            android:text="@string/locationbinnamas" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#201f1f">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:visibility="visible"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/icetea" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:text="Ice Tea @ Deli Cafe"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                app:fontFamily="@font/alike_angular" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:text="@string/abouticetea" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="25sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/white"
+                android:text="Price - 160/- "/>
+            <TextView
+                android:id="@+id/locicetea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/locationdeli"
+                android:textSize="20sp"
+                android:textColorLink="@android:color/darker_gray"/>
+        </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:visibility="visible"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/fooda" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="Pizza @ Pizza Italia"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"
+            app:fontFamily="@font/alike_angular" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="17sp"
+            android:text="@string/abouta1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"
+            android:text="Price - 350/- "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="17sp"
+            android:text="@string/abouta2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:text="Price - 350/- "/>
+
+
+        <TextView
+            android:id="@+id/loca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textColorLink="@android:color/darker_gray"
+            android:text="@string/location1" />
+
+        <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="#201f1f">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            android:adjustViewBounds="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/foodb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:text="Chicken Steak @ LMN Cafe"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                app:fontFamily="@font/alike_angular" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:text="@string/aboutb" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white"
+            android:text="Price - 290/- "/>
+            <TextView
+                android:id="@+id/locb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/location2"
+                android:textSize="20sp"
+                android:textColorLink="@android:color/darker_gray"/>
+       </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            android:adjustViewBounds="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/foodc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="Penne Pasta @ Cafe Stories"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"
+            app:fontFamily="@font/alike_angular" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="17sp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/aboutc" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:text="Price - 230/- "/>
+        <TextView
+            android:id="@+id/locc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textColorLink="@android:color/darker_gray"
+            android:text="@string/location3" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#201f1f">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_margin="70dp"
+                android:src="@drawable/chuchu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="Shehzin C S"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                app:fontFamily="@font/alike_angular" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:textStyle="italic"
+                android:text="@string/aboutchuch"
+                android:layout_marginBottom="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="@android:color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/rights"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

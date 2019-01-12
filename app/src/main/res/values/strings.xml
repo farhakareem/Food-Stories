@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Food Stories</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutbeef">The crispiest BDF you will find in Kochi .
+</string>
+    <string name="abouticetea">One of the perfect ice tea available here in kochi . Perfect blend of Ice , lemon and tea .
+</string>
+    <string name="abouta1">Al Funghi - Tomato sauce , Fresh mushrooms and mozzarella cheese</string>
+    <string name="abouta2">Mushroom Chicken - Chicken , Tomato sauce , Fresh mushrooms , mozzarella cheese , Extra virgin oil</string>
+   <string name="aboutb">Medium cooked chicken steak with mash potato and veggies. One of the best flavoured sauce and fine cut steak you'll get in kochi .</string>
+    <string name="aboutc">Penne Pasta in white sauce served with toast .</string>
+    <string name="aboutchuch">An amateur food blogger who enjoys tasting and reviewing the food served around Kochi.</string>
+    <string name="rights">Designed by Farha Kareem</string>
+    <string name="locationbinnamas">
+        <a href="https://goo.gl/maps/jmci89gx4c82">Click here for location</a>
+    </string>
+<string name="locationdeli">
+    <a href="https://goo.gl/maps/9QAeVca8wHs">Click here for location</a>
+</string>
+
+    <string name="location1">
+        <a href="https://goo.gl/maps/UM6yVhyY1Fm">Click here for location</a>
+    </string>
+    <string name="location2">
+        <a href="https://goo.gl/maps/u67fsg2X1MB2">Click here for location</a>
+    </string>
+    <string name="location3">
+        <a href="https://goo.gl/maps/vV88Dgd1Uwu">Click here for location</a>
+    </string>
+
+</resources>
